@@ -1,0 +1,153 @@
+/* Style edit's for product page 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* max-width: 1440px; */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 1280px;
+    min-height: 100vh;
+    /* width: 100vh; */
+    overflow-x: hidden;
+}
+
+main {
+    /* max-width: 1440px; */
+    /* max-height: 669px; */
+}
+
+
+/* HEADER STYLING */
+header .banner-container {
+    background: #F3F5F7;
+    height: 48px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 80px;
+    color: black;
+}
+
+header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.653);
+    font-size: 14px;
+    width: 1250px;
+}
+
+header .banner span a {
+    color: rgb(53, 53, 255);
+}
+
+header .banner select {
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .nav-link {
+    font-weight: 100;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+header .search-bar>button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.product-loop {
+    width: 1280px;
+    height: 942px;
+    margin: 20px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+.Breadcrumbs-Link{
+    /* justify-items: space-between; */
+    /* border: 1px solid red; */
+    width: 680px;
+height: 54px;
+padding: 0px 0px 0px 160px;
+gap: 18px;
+opacity: 0px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.button-xs{
+    width: 123px;
+height: 24px;
+gap: 10px;
+opacity: 0px;
+font-family: "Inter" sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+justify-content: space-between;
+color: black;
+cursor: pointer;
+
+}
+.product-loop1{
+    width: 1280px;
+height: 486px;
+padding: 0px 160px 0px 160px;
+gap: 63px;
+opacity: 0px;
+
+}
+.slider{
+    width: 549px;
+height: 419px;
+gap: 24px;
+opacity: 0px;
+
+}

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-origin: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    min-height: 100vh;
+    font-family: "Poppins" sans-serif;
+   
+   
+}
+.login-img{
+    height: 100vh;
+    background-image: url(../Image\Placeholder.svg);
+
+}
+.logo {
+    
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    color: black;
+    position: relative;
+    top: -430px;
+    left: 420px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 24px;
+    position: absolute;
+    
+}       
+.login-box {
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+    left: 10px;
+    top: -40px;
+    justify-content: center;
+    align-content: center;
+   padding-left: 50px;
+   padding-bottom: 50px;
+   
+    
+   
+}
+
+.login-box h1 {
+    font-family: "Poppins" sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 94px;
+    
+}
+.login-box a{
+    color: #38CB89;
+    text-decoration: none;
+    
+}
+.login-box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 480px;
+    height: 28px;
+    line-height: 26px;
+}
+.login-box .input-box {
+    width: 100%;
+    height: 154px;
+    margin: 30px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+   
+    
+
+
+}
+.input-box input {
+    width: 350px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 2px solid #E8ECEF;
+    border-radius: 10px;
+}
+.input-box .fa-eye {
+   
+    position: absolute;
+    bottom: 3px;
+    right: -80px;
+    transform: translate();
+    
+   
+}
+.forgotpassword-box {
+    border: 1px solid red;
+    position: relative;
+    top: -1px;
+}
+.Remember-me {
+    display: flex;
+   
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+.bnt {
+    width: 300px;
+    height: 36px;
+    border-radius: 8px solid black;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: black;
+    color: white;
+    
+   
+}
+bnt:hover {
+    background-color: #6C7275;
+}
+
+/* STYLING FOR SCREEN SIZES BELOW 1086px to 2586px */
+@media only screen and (max-width: 1024px) {
+    body {background-color: rgb(255, 255, 255);}
+}
+@media only screen and (max-width: 1086px) {
+    body {background-color: white;}
+    body {flex-wrap: wrap;}
+    
+}
